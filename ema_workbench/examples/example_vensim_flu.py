@@ -18,8 +18,7 @@ from ema_workbench import (
     perform_experiments,
 )
 from ema_workbench.connectors.vensim import VensimModel
-from ema_workbench.em_framework.parameters import Policy
-
+from ema_workbench.em_framework.parameters import Policy #should be: from ema_workbench.em_framework.points
 if __name__ == "__main__":
     ema_logging.log_to_stderr(ema_logging.INFO)
 
